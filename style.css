@@ -90,12 +90,14 @@ button{
     font-size: 30px;
 }
 h1{
+    text-align: center;
     margin-top: 30px;
     font-size: 34px;
     font-style: italic;
-    color: #d8d806;
+    color: #ffffff;
 }
 h3{
+    text-align: center;
     color: #d8d806;
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -116,4 +118,47 @@ margin-top: 1200px;
     width: 350px;
     color: #D8E9A8;
     font-size: 30px;
+}
+h2{
+    position: absolute;
+    margin-top: 1850px;
+    margin-left: 35%;
+    font-size: 34px;
+    font-style: italic;
+    color: #d8d806;
+    text-align: center;
+}
+h4{
+    position: absolute;
+    margin-top: 1900px;
+    margin-left: 32%;
+    font-size: 34px;
+    font-style: italic;
+    color: #d8d806;
+    text-align: center;
+}
+.chef{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 99%;
+    height: 600px;
+    
+    position: absolute;
+    margin-top: 1950px;
+}
+.cook{
+    background-color:#1E5128;
+    width: 30%;
+    height: 550px;
+    box-shadow: 10px 22px 22px 7px rgba(0,0,0,0.53);
+-webkit-box-shadow: 10px 22px 22px 7px rgba(0,0,0,0.53);
+-moz-box-shadow: 10px 22px 22px 7px rgba(0,0,0,0.53);
+}
+p{
+    position: absolute;
+    margin-top: 2600px;
+    font-size: 25px;
+    text-align: center;
+    color:#d3cbcb;
 }
